@@ -20,13 +20,16 @@ if (isset($_SESSION['user_id'])) {
 <body>
     <?php include 'includes/header.php'; ?>
 
-    <main>
-        <h2>Welcome to FitFlow!</h2>
-        <p>Your journey to a healthier lifestyle starts here. Log in or register to get started.</p>
-        <a href="login.php" class="button">Login</a>
-        <a href="register.php" class="button">Register</a>
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1>Start Your Fitness Journey Today</h1>
+            <p>Log your workouts, track your progress, and achieve your goals with FitFlow.</p>
+            <div class="cta-buttons">
+                <a href="register.php" class="button primary">Get Started</a>
+                <a href="login.php" class="button secondary">Log In</a>
+            </div>
+        </div>
     </main>
-
     <?php include 'includes/footer.php'; ?>
 </body>
 </html>

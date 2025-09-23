@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <header>
     <div class="logo">FitFlow</div>
     <nav>

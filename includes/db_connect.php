@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'fitflow_db';
 $username = 'root'; // Change to your MySQL username
-$password = 'direction'; // Change to your MySQL password
+$password = ''; // Change to your MySQL password
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
